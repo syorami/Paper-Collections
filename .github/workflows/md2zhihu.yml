@@ -12,6 +12,4 @@ jobs:
       with:
         pattern: >
             Domain-Collections/*.md
-            Domain-Collections/*.markdown
             Daily-Reading/*.md
-            Daily-Reading/*.markdown
