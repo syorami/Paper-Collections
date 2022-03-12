@@ -18,7 +18,7 @@ $\sigma_{t}(c)=\sum_{n=1}^{N} \mathbb{1}\left(\max \left(p_{m, t}\left(y \mid u_
 
 $\beta_{t}(c)=\frac{\sigma_{t}(c)}{\max _{c} \sigma_{t}}$
 
-$\mathcal{T}_{t}(c)=\beta_{t}(c) \cdot \tau$\
+$\mathcal{T}_{t}(c)=\beta_{t}(c) \cdot \tau$
 
 其中， $\sigma_t (c)$ 表示类别 $c$ 的学习效果，通过归一化后得到了 $\beta_t(c)$，其中预测数量最多的类别为 1，然后自适应系数会直接乘到预设的阈值上，来对不同类别调整阈值，最终 $\tau_t(c)$ 为训练计算 loss 时所用的阈值。
 
